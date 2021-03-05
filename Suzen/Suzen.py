@@ -126,16 +126,8 @@ if __name__ == "__main__":
                 pyautogui.click()
             
             else:
-                search_string = query
-                # pyautogui.keyDown('altleft')
-                # pyautogui.press('tab')
-                # pyautogui.keyDown('altleft')
-                # time.sleep(0.25)
-                pyautogui.keyDown('winleft')
-                pyautogui.press('d')
-                pyautogui.keyUp('winleft')
-                pyautogui.moveTo(1292, 1032)#(X: 1292 Y: 1032)spotify on my nexus
-                pyautogui.click()
+                Spotify_path = "spotify path here"
+                os.startfile(Spotify_path)
                 time.sleep(2.25)
                 pyautogui.moveTo(582, 28)#(x=582, y=28)cross(delete) search
                 pyautogui.click()
